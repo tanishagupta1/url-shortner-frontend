@@ -11,3 +11,31 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 2rem;
+  flex-direction: column;
+  padding: 2rem;
+}
+.shorten-url{
+  display: flex;
+  gap: 2rem;
+}
+.btn{
+  background-color: aquamarine;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  font-size: medium;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+}
+.shortened-urls{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+}
