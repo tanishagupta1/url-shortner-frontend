@@ -28,7 +28,7 @@ code {
 .btn{
   background-color: aquamarine;
   border: none;
-  color: #fff;
+  color: rgb(16, 16, 16);
   cursor: pointer;
   font-size: medium;
   border-radius: 10px;
@@ -38,4 +38,24 @@ code {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 2rem;
+}
+.shortlabel{
+  background-color: rgb(255, 240, 70);
+  margin: 1rem;
+}
+.urlcard{
+  justify-content: center;
+  margin: 2rem;
+}
+.longurlcard{
+  margin: 0.5rem;
+  background-color: rgb(188, 190, 255);
+}
+.shortidurlcard{
+  margin: 0.5rem;
+  background-color: rgb(202, 255, 227);
+}
+.shorturlcard{
+  margin: 0.5rem;
+  background-color: rgb(244, 147, 147);
 }

@@ -15,14 +15,16 @@ export const Url = () => {
 
   useEffect(() => {
     getUrl()
-  },[])
+  })
 
   return (
     <>
+      <div className="urlcard">
       <div>Your Url is:</div>
-      <div>{uri}</div>
-      <div>Your Short Url id is:</div>
-      <div>{id}</div>
+      <div className="longurlcard">{uri}</div>
+      <div>Your Short Url is:</div>
+      <div className="shorturlcard">http://localhost:5000/{id}</div>
+      </div>
 
     </>
   );

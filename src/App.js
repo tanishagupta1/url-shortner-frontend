@@ -12,7 +12,6 @@ function App() {
       <Routes>
         <Route path="/" element={<Shortner />} />
         <Route path="/:id" element={<Url />} />
-        
       </Routes>
     </BrowserRouter>
   );

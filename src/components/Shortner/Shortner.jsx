@@ -47,12 +47,13 @@ const Shortner = () => {
           Shorten
         </button>
       </div>
-      {shortUrl && <div>Your Shortened Url is: {shortUrl}</div>}
+      {shortUrl && <div className="shortlabel">Your Shortened Url is: {shortUrl}</div>}
       <div className="shortened-urls">
         {allUrls.map((url) => (
           <Link to={`/${url.urlCode}`}>
             <div>{`${url.longUrl.substring(0, 50)}...`}</div>
-            <div>{url.shortUrl}</div>
+            <div className="shortlabel">Your Shortened Url is:</div>
+            <span>{url.shortUrl}</span>
           </Link>
         ))}
       </div>
